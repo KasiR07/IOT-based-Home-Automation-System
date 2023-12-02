@@ -127,6 +127,14 @@ Breadboard View
 
 • Similarly, if the data read is ‘@’ it means all the pins are ON, which will make all the LEDs light up and ‘#’ implies all are off.
 
+# App used for Bluetooth Connection
+Bluetooth Automation HC – 05. It is available on the Google Play Store and helps in remotely controlling the 8-channel Relay Module via Bluetooth.
+
+![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/8574d38e-46ab-431f-842f-9185085a8d62)
+![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/bbe5eaf2-08bb-42e1-bb3f-2169fd28d7a4)
+![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/64ca6252-3292-4d48-9ecd-1a79758ab876)
+
+
 # Conclusion
 Houses are becoming smarter as technology advances. The traditional switches in modern homes are rapidly giving way to centralized control systems with remotecontrolled switches. It is challenging for the user to approach the traditional wall switches, which are scattered throughout the home, in order to use them. The most cutting-edge solution with smartphones is remote controlled home automation. Using home automation might result in more innovative and effective energy-saving methods. In this project, we implemented a home automation system using Arduino and Bluetooth. Through this project, the user can simply turn devices like lights, fans, AC, TV, etc. on using an app which is connected to the Arduino circuit using Bluetooth.
 
