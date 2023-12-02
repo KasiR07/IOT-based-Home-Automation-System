@@ -110,6 +110,23 @@ Breadboard View
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/4b8cfed3-769f-45d9-9751-6a49ce7c8074)
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/35ff46c8-a8e7-4255-bbe3-a3fb37d170e5)
 
+# Working
+
+• Initially the variable for storing data is set to 0 for storing incoming data.
+
+• Next the data rate for serial transmission is set using Serial.begin function.
+
+• Then 8,9,10,11 pins of Arduino which are connected to relay module are set as output pins, they act as switches.
+
+• The Serial.available checks if any serial data or input is received, if yes, then the
+  data is read using Serial.read function.
+
+• If the data is ‘A’ i.e. ON for pin 8, then the LED is connected to the pin and will be turned on using the digitalWrite function, else if it is ‘a’ i.e. OFF, then    the LED will not light up.
+
+• Similar is the case for all other pins 9,10 and 11
+
+• Similarly, if the data read is ‘@’ it means all the pins are ON, which will make all the LEDs light up and ‘#’ implies all are off.
+
 # Conclusion
 Houses are becoming smarter as technology advances. The traditional switches in modern homes are rapidly giving way to centralized control systems with remotecontrolled switches. It is challenging for the user to approach the traditional wall switches, which are scattered throughout the home, in order to use them. The most cutting-edge solution with smartphones is remote controlled home automation. Using home automation might result in more innovative and effective energy-saving methods. In this project, we implemented a home automation system using Arduino and Bluetooth. Through this project, the user can simply turn devices like lights, fans, AC, TV, etc. on using an app which is connected to the Arduino circuit using Bluetooth.
 
