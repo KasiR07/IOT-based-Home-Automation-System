@@ -3,6 +3,7 @@ The main objective of this project is to develop a home automation system using 
 
 # Components Description
 Jumper wires come in three versions:
+
 • Male-to-male jumper
 
 • Male-to-female jumper
@@ -15,6 +16,7 @@ Jumper wires come in three versions:
 
 Bluetooth Module HC-05
 Pin Description:
+
 • Enable - This pin is used to set the Data Mode or and AT command mode (set high).
 
 • VCC - This is connected to +5V power supply.
@@ -31,6 +33,7 @@ Pin Description:
 
 4 Channel Relay Module
 Specifications:
+
 • Digital output controllable
 
 • Compatible with any 5V microcontroller such as Arduino.
@@ -49,6 +52,7 @@ Specifications:
 
 Aurdino UNO
 General pin functions:
+
 • LED: There is a built-in LED driven by digital pin 13. When the pin is high value, the LED is on, when the pin is low, it is off.
 
 • VIN: The input voltage to the Arduino/Genuino board when it is using an external power source (as opposed to 5 volts from the USB connection or other regulated power source). You can supply voltage through       this pin, or, if supplying voltage via the power jack, access it through this pin.
@@ -75,6 +79,7 @@ Breadboard View
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/d5e555ae-3bad-4b07-b68f-131024431fc3)
 
 # Connections
+
 • Digital pins 8,9,10,11 of the Arduino board and connected to input 1,2,3,4 of the relay.
 
 • Now for the power supply of the relay, 5V and GND pins of the Arduino are connected to VCC and GND of the relay respectively.
