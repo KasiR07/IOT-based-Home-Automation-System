@@ -96,7 +96,7 @@ Breadboard View
 
 # Functions
 
-1)Serial.begin(9600): passes the value 9600 to the speed parameter. This tells Arduino to get ready to exchange messages with the ‘Serial Monitor at a data rate of 9600 bits per second. That’s 9600 binary ones or zeros per second and is commonly called a baud rate.
+1) Serial.begin(9600): passes the value 9600 to the speed parameter. This tells Arduino to get ready to exchange messages with the ‘Serial Monitor at a data rate of 9600 bits per second. That’s 9600 binary ones or zeros per second and is commonly called a baud rate.
 
 2) pinMode: configures the specified pin to behave as an output or input.
 
@@ -104,7 +104,7 @@ Breadboard View
 
 4) Serial.read(): reads the data in bytes
 
-5)digitalWrite: If the pin has been configured as an OUTPUT with pinMode(), its voltage will be set to the corresponding value: 5V (or 3.3V on 3.3V boards) for HIGH, 0V (ground) for LOW
+5) digitalWrite: If the pin has been configured as an OUTPUT with pinMode(), its voltage will be set to the corresponding value: 5V (or 3.3V on 3.3V boards) for HIGH, 0V (ground) for LOW
 
 # Hardware Implementation
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/4b8cfed3-769f-45d9-9751-6a49ce7c8074)
