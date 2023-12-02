@@ -52,6 +52,7 @@ Schemantic View
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/e24ab65d-c891-426a-a1ae-78725dcbb7dc)
 
 Breadboard View
+
 ![image](https://github.com/KasiR07/IOT-based-Home-Automation-System/assets/108777263/d5e555ae-3bad-4b07-b68f-131024431fc3)
 
 # Connections
