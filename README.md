@@ -95,6 +95,7 @@ Breadboard View
 • Connection is established and various ON/OFF buttons are made visible.
 
 # Functions
+
 1)Serial.begin(9600): passes the value 9600 to the speed parameter. This tells Arduino to get ready to exchange messages with the ‘Serial Monitor at a data rate of 9600 bits per second. That’s 9600 binary ones or zeros per second and is commonly called a baud rate.
 
 2) pinMode: configures the specified pin to behave as an output or input.
